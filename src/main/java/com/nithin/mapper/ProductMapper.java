@@ -15,8 +15,8 @@ public class ProductMapper {
         product.setProductName(productDTO.getProductName());
         product.setHsnCode(productDTO.getHsnCode());
         product.setPrice(productDTO.getPrice());
-        product.setCGST(productDTO.getcGST());
-        product.setSGST(productDTO.getsGST());
+        product.setcGST(productDTO.getcGST());
+        product.setsGST(productDTO.getsGST());
         product.setPiecePrice(productDTO.getPiecePrice());
         product.setNoofPiecesCase(productDTO.getNoofPiecesCase());
         return product;

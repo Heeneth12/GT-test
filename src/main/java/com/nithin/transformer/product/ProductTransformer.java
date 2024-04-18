@@ -22,7 +22,6 @@ public class ProductTransformer {
     public Product saveProductDetails(ProductDTO productDTO) {
         Product product=productMapper.DTOtoEntity(productDTO);
         Product product1=productService.saveProductDetails(product);
-
         return product1;
     }
 

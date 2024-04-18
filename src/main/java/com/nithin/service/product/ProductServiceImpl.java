@@ -60,8 +60,8 @@ public class ProductServiceImpl implements ProductService{
         }
         existingProduct.setProductName(tobeSavedProduct.getProductName());
         existingProduct.setHsnCode(tobeSavedProduct.getHsnCode());
-        existingProduct.setSGST(tobeSavedProduct.getSGST());
-        existingProduct.setCGST(tobeSavedProduct.getCGST());
+        existingProduct.setsGST(tobeSavedProduct.getsGST());
+        existingProduct.setcGST(tobeSavedProduct.getcGST());
         existingProduct.setPrice(tobeSavedProduct.getPrice());
         existingProduct.setNoofPiecesCase(tobeSavedProduct.getNoofPiecesCase());
         existingProduct.setPiecePrice(tobeSavedProduct.getPiecePrice());
